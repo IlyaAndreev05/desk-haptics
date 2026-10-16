@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-labelledby="title desc">
+  <title id="title">Подключение оборудования Desk Haptics: TPA3118 XH-M313 / HW-327</title>
+  <desc id="desc">Условная схема по фото SW-HF24 V1.0 и названной пользователем модели TPA3118 XH-M313 / HW-327. На плате заявлено 10–24 VDC, на чипе возможен mono PBTL, но физическую ревизию, аудиовход и блок питания нужно проверить.</desc>
+  <defs>
+    <marker id="arrow-audio" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6 1 11" fill="none" stroke="#087e8b" stroke-width="2"/></marker>
+    <marker id="arrow-power" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6 1 11" fill="none" stroke="#bd6b12" stroke-width="2"/></marker>
+    <style>
+      text{font-family:'Noto Sans',Arial,sans-serif;fill:#17202b}.title{font-size:29px;font-weight:700}.sub{font-size:17px;fill:#536170}
+      .box{fill:#fff;stroke:#cad2db;stroke-width:2}.head{font-size:20px;font-weight:700}.body{font-size:15px;fill:#536170}.port{font-size:15px;font-weight:700}
+      .audio{fill:none;stroke:#087e8b;stroke-width:5;stroke-dasharray:10 8;marker-end:url(#arrow-audio)}.power{fill:none;stroke:#bd6b12;stroke-width:5;marker-end:url(#arrow-power)}
+      .plus{fill:none;stroke:#b5473c;stroke-width:4}.minus{fill:none;stroke:#3d68a6;stroke-width:4}
+      .warn{fill:#fff7e9;stroke:#d9a14f;stroke-width:2}.warntext{font-size:14px;fill:#63410d}.caption{font-size:13px;fill:#536170}
+    </style>
+  </defs>
+  <rect width="1200" height="880" fill="#f4f6f8"/>
+  <text class="title" x="48" y="55">Подключение TPA3118: сверить реальную плату</text>
+  <text class="sub" x="48" y="86">Фото SW-HF24 V1.0 похоже на XH-M313 / HW-327; проверьте маркировку платы и БП.</text>
+
+  <rect class="box" x="45" y="180" width="250" height="270" rx="18"/>
+  <text class="head" x="68" y="222">Компьютер / DAC</text>
+  <text class="body" x="68" y="255">Аналоговый выход</text>
+  <rect x="67" y="278" width="204" height="62" rx="8" fill="#e8f4f5" stroke="#087e8b"/>
+  <text class="port" x="82" y="303">LINE OUT</text>
+  <text class="body" x="82" y="325">распайка не известна</text>
+  <text class="body" x="68" y="379">Не соединять напрямую:</text>
+  <text class="body" x="68" y="401">сначала выяснить формат</text>
+  <text class="body" x="68" y="423">Input и сигнальную землю.</text>
+
+  <rect class="box" x="350" y="140" width="510" height="410" rx="18"/>
+  <text class="head" x="380" y="184">TPA3118 mono PBTL*</text>
+  <text class="body" x="380" y="210">Пользователь указал XH-M313 / HW-327; фото: SW-HF24 V1.0</text>
+
+  <rect x="380" y="232" width="450" height="66" rx="8" fill="#e8f4f5" stroke="#087e8b"/>
+  <text class="port" x="398" y="257">INPUT:  +   /   −</text>
+  <text class="body" x="398" y="282">Формат входа и сигнальная земля не установлены.</text>
+
+  <rect x="380" y="310" width="450" height="66" rx="8" fill="#f3f4f6" stroke="#aeb8c2"/>
+  <text class="port" x="398" y="333">MUTE: две клеммы</text>
+  <text class="body" x="398" y="355">Функция и уровень неизвестны.</text>
+  <text class="body" x="398" y="372">Оставить неподключённым.</text>
+
+  <rect x="380" y="388" width="450" height="66" rx="8" fill="#fff0ef" stroke="#b5473c"/>
+  <text class="port" x="398" y="413">SPEAKER OUT:  +   /   −</text>
+  <text class="body" x="398" y="438">Speaker − — выход, не земля; не подключать к ПК/БП.</text>
+
+  <rect x="380" y="460" width="450" height="82" rx="8" fill="#fff7e9" stroke="#bd6b12"/>
+  <text class="port" x="398" y="492">DC SUPPLY: 10–24 VDC*</text>
+  <text class="body" x="398" y="515">12 V входит в этот диапазон; 60 W при 12 V нет.</text>
+  <text class="body" x="398" y="536">Ток и полярность БП сверьте по его этикетке.</text>
+
+  <path class="audio" d="M295 308H342"/>
+
+  <rect class="box" x="925" y="180" width="230" height="320" rx="18"/>
+  <text class="head" x="949" y="222">Виброизлучатель*</text>
+  <circle cx="1040" cy="288" r="42" fill="#d9e0e6" stroke="#7c8996" stroke-width="3"/>
+  <circle cx="925" cy="391" r="6" fill="#b5473c"/><circle cx="925" cy="420" r="6" fill="#3d68a6"/>
+  <text class="port" x="944" y="397" fill="#b5473c">+</text><text class="port" x="944" y="426" fill="#3d68a6">−</text>
+  <text class="body" x="969" y="376">клеммы</text>
+  <text class="body" x="949" y="459">В карточке товара:</text>
+  <text class="port" x="949" y="482">50 мм · 4 Ω · 25 W</text>
+
+  <path class="plus" d="M860 398H919"/><path class="minus" d="M860 427H919"/>
+
+  <rect class="box" x="350" y="628" width="510" height="168" rx="18"/>
+  <text class="head" x="380" y="666">Блок питания DC</text>
+  <text class="body" x="380" y="698">Проверьте ток, полярность</text>
+  <text class="body" x="380" y="719">и разъём по этикетке БП.</text>
+  <text class="body" x="380" y="750">12 V входит в диапазон изображения;</text>
+  <text class="body" x="380" y="771">совместимость не доказана.</text>
+  <path class="power" d="M830 628V562Q830 550 842 550"/>
+
+  <rect class="warn" x="900" y="568" width="280" height="190" rx="14"/>
+  <text class="head" x="923" y="606" fill="#63410d">Перед включением</text>
+  <text class="warntext" x="923" y="637">1. Сверьте маркировку платы.</text>
+  <text class="warntext" x="923" y="665">2. Проверьте ток и полярность</text>
+  <text class="warntext" x="943" y="685">по этикетке БП.</text>
+  <text class="warntext" x="923" y="711">3. Уточните Input и Mute.</text>
+  <text class="warntext" x="923" y="737">После проверки — малый уровень.</text>
+
+  <text class="caption" x="48" y="806">* Напряжение 10–24 V и 50 мм / 4 Ω / 25 W — надписи товарных изображений, не паспорт физического экземпляра.</text>
+  <text class="caption" x="48" y="832">TPA3118 mono PBTL: speaker +/− — оба усилительные выходы; speaker − не соединять с землёй.</text>
+  <text class="caption" x="48" y="858">60 W — заявка платы; целевые 12 V не обеспечивают 60 W. Неизвестные: docs/hardware-observations.md</text>
+</svg>

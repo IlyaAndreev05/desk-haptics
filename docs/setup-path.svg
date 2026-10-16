@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Путь настройки Desk Haptics</title>
+  <desc id="desc">Шесть шагов: закрепить излучатель, проверить проводку, установить приложения, выбрать выход и профиль, начать с малого уровня и калибровать, затем пользоваться и проверять результат.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1L11 6 1 11" fill="none" stroke="#087e8b" stroke-width="2"/></marker>
+    <style>
+      text{font-family:'Noto Sans',Arial,sans-serif;fill:#17202b}.title{font-size:30px;font-weight:700}.subtitle{font-size:17px;fill:#536170}
+      .card{fill:#fff;stroke:#cad2db;stroke-width:2}.num{font-size:18px;font-weight:700;fill:#fff}.heading{font-size:21px;font-weight:700}.body{font-size:16px;fill:#536170}
+      .line{fill:none;stroke:#087e8b;stroke-width:4;marker-end:url(#arrow)}.chip{fill:#e8f4f5;stroke:#a8d2d5;stroke-width:1.5}.chiptext{font-size:14px;font-weight:700;fill:#075e67}
+      .caution{fill:#fff7e9;stroke:#d9a14f;stroke-width:2}.small{font-size:15px;fill:#63410d}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f4f6f8"/>
+  <text class="title" x="54" y="64">От сборки до первого эффекта</text>
+  <text class="subtitle" x="54" y="96">Порядок настройки, который сохраняет отдельность программ и начинает проверку с малого уровня.</text>
+
+  <rect class="card" x="65" y="150" width="430" height="150" rx="18"/>
+  <circle cx="105" cy="190" r="22" fill="#087e8b"/><text class="num" x="99" y="196">1</text>
+  <text class="heading" x="145" y="192">Закрепите излучатель</text>
+  <text class="body" x="145" y="224">Выберите прочное место и следуйте</text><text class="body" x="145" y="249">инструкции производителя.</text>
+  <rect class="chip" x="145" y="263" width="203" height="25" rx="12"/><text class="chiptext" x="159" y="281">механическая установка</text>
+
+  <rect class="card" x="705" y="150" width="430" height="150" rx="18"/>
+  <circle cx="745" cy="190" r="22" fill="#087e8b"/><text class="num" x="739" y="196">2</text>
+  <text class="heading" x="785" y="192">Проверьте проводку</text>
+  <text class="body" x="785" y="224">Сверьте вход, клеммы, питание</text><text class="body" x="785" y="249">и полярность по паспорту усилителя.</text>
+  <rect class="chip" x="785" y="263" width="194" height="25" rx="12"/><text class="chiptext" x="799" y="281">питание выключено</text>
+
+  <path class="line" d="M495 225H690"/>
+
+  <rect class="card" x="705" y="350" width="430" height="150" rx="18"/>
+  <circle cx="745" cy="390" r="22" fill="#087e8b"/><text class="num" x="739" y="396">3</text>
+  <text class="heading" x="785" y="392">Установите приложения</text>
+  <text class="body" x="785" y="424">Audio Matrix и Event Sound Studio</text><text class="body" x="785" y="449">можно настраивать независимо.</text>
+  <rect class="chip" x="785" y="463" width="174" height="25" rx="12"/><text class="chiptext" x="799" y="481">Java 25 · PipeWire</text>
+
+  <rect class="card" x="65" y="350" width="430" height="150" rx="18"/>
+  <circle cx="105" cy="390" r="22" fill="#087e8b"/><text class="num" x="99" y="396">4</text>
+  <text class="heading" x="145" y="392">Выберите выход и профиль</text>
+  <text class="body" x="145" y="424">Укажите фактический выход/DAC</text><text class="body" x="145" y="449">и включите нужный маршрут.</text>
+  <rect class="chip" x="145" y="463" width="173" height="25" rx="12"/><text class="chiptext" x="159" y="481">сначала нейтрально</text>
+
+  <path class="line" d="M920 300V338"/>
+  <path class="line" d="M705 425H510"/>
+
+  <rect class="card" x="65" y="550" width="430" height="150" rx="18"/>
+  <circle cx="105" cy="590" r="22" fill="#087e8b"/><text class="num" x="99" y="596">5</text>
+  <text class="heading" x="145" y="592">Калибруйте постепенно</text>
+  <text class="body" x="145" y="624">Только после проверки включите тест</text><text class="body" x="145" y="649">на малом уровне; ручная настройка есть.</text>
+  <rect class="chip" x="145" y="663" width="214" height="25" rx="12"/><text class="chiptext" x="159" y="681">измерения — с датчиком</text>
+
+  <rect class="card" x="705" y="550" width="430" height="150" rx="18"/>
+  <circle cx="745" cy="590" r="22" fill="#087e8b"/><text class="num" x="739" y="596">6</text>
+  <text class="heading" x="785" y="592">Назначьте эффекты</text>
+  <text class="body" x="785" y="624">Выберите события и звуки, включайте</text><text class="body" x="785" y="649">только необходимые источники.</text>
+  <rect class="chip" x="785" y="663" width="191" height="25" rx="12"/><text class="chiptext" x="799" y="681">событие → звук → выход</text>
+
+  <path class="line" d="M280 500V538"/>
+  <path class="line" d="M495 625H690"/>
+
+  <rect class="caution" x="65" y="740" width="1070" height="48" rx="12"/>
+  <text class="small" x="89" y="770">Остановитесь при перегреве, шуме или треске. Не вскрывайте сетевой БП; неизвестные напряжение и распиновку не угадывайте.</text>
+</svg>
